@@ -6,9 +6,9 @@ from passlib.context import CryptContext
 from datetime import datetime, timedelta
 import mysql.connector
 
-ALGORITHM = "HS256"
-ACCESS_TOKEN_DURATION = 10
-SECRET ="a09e1d18327ec0c6af21fc942e72a8be1466af605a3791539035a2858d1ab427"
+ALGORITHM = "!!!!"
+ACCESS_TOKEN_DURATION = !!!!
+SECRET ="!!!!"
 
 router = APIRouter()
 
@@ -26,10 +26,10 @@ class logeo_data(BaseModel):
 
 def get_db():
     cnx = mysql.connector.connect(
-        host="sql859.main-hosting.eu",
-        user="u362449495_api_notas_user",
-        password="/6Net$+B5Py",
-        database="u362449495_api_notas"
+        host="!!!!",
+        user="!!!!",
+        password="!!!!",
+        database="!!!!"
     )
     return cnx
 

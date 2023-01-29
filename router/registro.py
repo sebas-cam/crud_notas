@@ -17,10 +17,10 @@ class registro_data(BaseModel):
 
 def get_db():
     cnx = mysql.connector.connect(
-        host="sql859.main-hosting.eu",
-        user="u362449495_api_notas_user",
-        password="/6Net$+B5Py",
-        database="u362449495_api_notas"
+        host="!!!!",
+        user="!!!!",
+        password="!!!!",
+        database="!!!!"
     )
     return cnx
 
